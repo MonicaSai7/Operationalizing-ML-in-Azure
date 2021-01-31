@@ -1,4 +1,4 @@
-# Your Project Title Here
+# Operationalizing Machine Learning in Azure
 
 This project uses Bank Marketing dataset that is related with direct marketing campaigns of a Portugese banking institution. The classification goal is to predict if the client will subscribe a term deposit. Microsoft Azure is used to configure a cloud-based machine learning production model, deploy the best model and consume the model endpoints. Apart from using Azure ML Studio, Azure Python SDK is used to create, publish and consume a pipeline.
 
@@ -70,7 +70,7 @@ The following screenshot shows the *Run Details* of the published pipeline:<br>
 <img src="/Resources/Step6-4.png"><br><br>
 
 ## Screen Recording
-The screencast of the project demo can be viewed here.
+The screencast of the project demo can be viewed [here] (https://youtu.be/SZE16-p13uo).
 
 ## Standout Suggestions
 1. Perform hyperparameter tuning by training a model with HyperDrive.
