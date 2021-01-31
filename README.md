@@ -38,7 +38,7 @@ The following screenshot shows the real-time endpoint created after the best mod
 ### Step 3: Enable Logging
 After the *Best Model* is deployed, *Application Insights* must be enabled to retrieve logs.
 
-The following screenshot shows the *Application Insights* enabled in the Details tab of the endpoint:<br>
+Initially, *Application Insights* is disabled in the endpoint. This option is enabled by executing the logs.py Python file. The following screenshot shows the *Application Insights* enabled in the Details tab of the endpoint after running logs.py:<br>
 <img src="/Resources/Step3-1.png"><br><br>
 The following screenshot shows the logs produced by running the provided logs.py scripts:<br>
 <img src="/Resources/Step3-2.png"><br><br>
@@ -60,17 +60,18 @@ The following screenshot shows the endpoint.py script running against the API pr
 ### Step 6: Create, Publish and Consume Pipeline
 For this step, the Jupyter Notebook providede is used with appropriate keys, URI, dataset, cluster and model names created previously.
 
-The following screenshot shows the pipeline created:<br>
+This step is completely performed using the Python SDK. So, config.json is required to be present the current directory of the notebook in order to properly configure the workspcae and accound subscription. The following screenshot shows the pipeline created after defining pipeline steps in the notebook:<br>
 <img src="/Resources/Step6-1.png"><br><br>
-The following screenshot shows the Pipeline Endpoint:<br>
+The following screenshot shows the Pipeline Endpoint after successful deployment:<br>
 <img src="/Resources/Step6-2.png"><br><br>
 The following screenshot shows the *Published Pipeline Overview* with a REST Endpoint and status of ACTIVE:<br>
 <img src="/Resources/Step6-3.png"><br><br>
 The following screenshot shows the *Run Details* of the published pipeline:<br>
-<img src="/Resources/Step6-4.png"><br><br>
+<img src="/Resources/Step6-4.png"><br>
+<img src="/Resources/Step6-5.png"><br><br>
 
 ## Screen Recording
-The screencast of the project demo can be viewed [here](https://youtu.be/SZE16-p13uo).
+The screencast of the project demo can be viewed [here](https://youtu.be/RFwxJ55dryI).
 
 ## Standout Suggestions
 1. Perform hyperparameter tuning by training a model with HyperDrive.
