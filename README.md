@@ -70,7 +70,7 @@ The following screenshot shows the *Run Details* of the published pipeline:<br>
 <img src="/Resources/Step6-4.png"><br><br>
 
 ## Screen Recording
-The screencast of the project demo can be viewed [here] (https://youtu.be/SZE16-p13uo).
+The screencast of the project demo can be viewed [here](https://youtu.be/SZE16-p13uo).
 
 ## Standout Suggestions
 1. Perform hyperparameter tuning by training a model with HyperDrive.
