@@ -74,6 +74,6 @@ The screencast of the project demo can be viewed [here](https://youtu.be/SZE16-p
 
 ## Standout Suggestions
 1. Perform hyperparameter tuning by training a model with HyperDrive.
-2. Enabel *Deep Learning* in Classification while creating the AutoML experiment.
+2. Enable *Deep Learning* in Classification while creating the AutoML experiment.
 3. Perform data preprocessing such as feature selection by observing the influence of features on different models.
 
